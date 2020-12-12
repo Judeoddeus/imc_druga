@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 009</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+<body>
+    
+    <form>
+        <caption> CALCULAR IMC</caption>
+        <br><br>
+
+        <label for="peso">Peso: </label>
+        <input type="number" id="peso">
+        <br><br>
+       
+        <label for="altura">Altura: </label>
+        <input type="number" id="altura">
+        <br><br>
+        <img src="images/Logo_druga.png" id="imagem" width="200">
+        <button type="button" onclick="IMC();">Calcular</button>
+        <button type="button" onclick="Limpar();">Limpar</button>
+        <br><br>
+
+       <div id="mensagem"></div>
+    </form>
+
+    <script src="js/funcoes.js"></script>
+</body>
+</html>
